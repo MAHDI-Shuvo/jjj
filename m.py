@@ -78,8 +78,8 @@ def tod():
 
 
 IP = requests.get('https://api.ipify.org').text
-logo = '  \n %s\xe2\x95\xa6\xe2\x94\xac \xe2\x94\xac\xe2\x94\x8c\xe2\x94\xac\xe2\x94\x90\xe2\x94\x8c\xe2\x94\xac\xe2\x94\x90  \xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\xac \xe2\x94\xac\xe2\x94\xac \xe2\x94\x8c\xe2\x94\xac\xe2\x94\x90\xe2\x94\xac  \xe2\x95\x94\xe2\x95\x97 \xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac \xe2\x94\xac\xe2\x94\x8c\xe2\x94\xac\xe2\x94\x90\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\n %s\xe2\x95\x91\xe2\x94\x82 \xe2\x94\x82 \xe2\x94\x82  \xe2\x94\x82   \xe2\x95\x91\xe2\x95\x91\xe2\x95\x91\xe2\x94\x82 \xe2\x94\x82\xe2\x94\x82  \xe2\x94\x82 \xe2\x94\x82  \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x82 \xe2\x94\x82 \xe2\x94\x82 \xe2\x94\x9c\xe2\x94\xa4 \n%s\xe2\x95\x9a\xe2\x95\x9d\xe2\x94\x94\xe2\x94\x80\xe2\x94\x98 \xe2\x94\xb4  \xe2\x94\xb4   \xe2\x95\xa9 \xe2\x95\xa9\xe2\x94\x94\xe2\x94\x80\xe2\x94\x98\xe2\x94\xb4\xe2\x94\x80\xe2\x94\x98\xe2\x94\xb4 \xe2\x94\xb4  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\x94\xe2\x94\x80\xe2\x94\x98 \xe2\x94\xb4 \xe2\x94\x94\xe2\x94\x80\xe2\x94\x98 ' % (P, warna, P)
-logo2 = '%s \n     ___  __   __  _______  _______ \n    |   ||  | |  ||       ||       |\n    |   ||  | |  ||_     _||_     _|\n    |   ||  |_|  |  |   |    |   |  \n ___|   ||       |  |   |    |   |  \n|       ||       |  |   |    |   |  \n|_______||_______|  |___|    |___|  \n          %s *%s JuttBadshah Brand %s*\n%s--------------------------------------------------\n' % (warna, O, H, O, N)
+logo = '  \n\x1b\33[93m███╗   ███╗ █████╗██╗  ██╗██████╗ ██╗     \n\033[91m███╗ ████║██╔══██╗██║  ██║██╔══██╗██║    \n\033[1;32m██╔████╔██║███████║███████║██║  ██║██║   \n\33[97m██║╚██╔╝██║██╔══██║██╔══██║██║  ██║██║    \n\033[96m██║ ╚═╝ ██║██║  ██║██║  ██║██████╔╝██║    \n\033[0;35m╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝\033[0m\n \033[0m================================================================\n\33[93mAUTHOR :\033[91m[MAHDI HASAN] SHUVO\n\033[0;33mGITHUB : \033[1;97mhttps://github.com/MAHDI-Shuvo\nLIVE in Sylhet (Read in class 10)\n\033[42mNo NEED GF \033[0;31mIF YOU LOVE ME I LOVE YOU IF U HAT ME I FUCK YOU\n ================================================================  ' % (P, warna, P)
+logo2 = '%s \n   #     #    #    #     # ######  ###\n##   ##   # #   #     # #     #  #\n# # # #  #   #  #     # #     #  # \n#  #  # #     # ####### #     #  # \n #     # ####### #     # #     #  #\n#     # #     # #     # #     #  # \n#     # #     # #     # ######  ###   \n          %s *%s MAHDI HASAN %s*\n%s--------------------------------------------------\n' % (warna, O, H, O, N)
 host = 'https://mbasic.facebook.com'
 ua = 'Mozilla/5.0 (Linux; Android 10; TECNO KE6j Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36 GSA/11.42.18.23.arm64'
 ips = None
@@ -102,7 +102,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://juttkey.000webhostapp.com/30day.txt').text
+    r = requests.get('https://raw.githubusercontent.com/MAHDI-Shuvo/maprove/main/mahdi.text').text
     if to in r:
         notice()
     else:
@@ -116,7 +116,7 @@ def reg():
         print ' \t\x1b[1;92mCopy Your Api: \x1b[1;91m' + to
         print ''
         raw_input('\t\x1b[1;97m  And Press \x1b[1;91menter \x1b[1;97mto Input Api')
-        os.system('xdg-open https://juttkey.000webhostapp.com/30day.php')
+        os.system('xdg-open https://web.facebook.com/m.mahdi.80')
         time.sleep(5)
         print ''
         raw_input('\t\x1b[1;93m Press \x1b[1;96menter\x1b[1;93m To Check Approval ')
@@ -136,7 +136,7 @@ def reg2():
     print ''
     raw_input('\t\x1b[1;97m  And Press \x1b[1;91menter \x1b[1;97mto Input Api')
     print ''
-    os.system('xdg-open https://juttkey.000webhostapp.com/30day.php')
+    os.system('xdg-open https://web.facebook.com/m.mahdi.80')
     time.sleep(5)
     sav = open('/data/data/com.termux/files/usr/libexec/coreutils/.apikey', 'w')
     sav.write(id)
@@ -207,17 +207,17 @@ def cokis():
         zedd.close()
         jalan('\n %s[%s\xe2\x9c\x93%s] Login done' % (N, H, N))
         time.sleep(1)
-        os.system('xdg-open https://www.youtube.com/channel/UCMq49MVzVHlX-KQvlTbCbyw')
+        os.system('xdg-open https://web.facebook.com/m.mahdi.80')
         ok_token()
     except AttributeError:
         print '\n\n %s[%s!%s] Cookies invalid' % (N, M, N)
         time.sleep(2)
-        os.system('xdg-open https://www.youtube.com/channel/UCMq49MVzVHlX-KQvlTbCbyw')
+        os.system('xdg-open https://web.facebook.com/m.mahdi.80')
         yayanxd()
     except UnboundLocalError:
         print '\n\n %s[%s!%s] Cookies invalid' % (N, M, N)
         time.sleep(2)
-        os.system('xdg-open https://www.youtube.com/channel/UCMq49MVzVHlX-KQvlTbCbyw')
+        os.system('xdg-open https://web.facebook.com/m.mahdi.80')
         yayanxd()
     except requests.exceptions.SSLError:
         os.system('clear')
@@ -239,7 +239,7 @@ def token():
         zedd.close()
         jalan('\n\n %s[%s\xe2\x9c\x93%s] Login successful' % (P, H, P))
         time.sleep(1)
-        os.system('xdg-open https://www.youtube.com/channel/UCMq49MVzVHlX-KQvlTbCbyw')
+        os.system('xdg-open https://m.facebook.com/m.mahdi.80')
     except KeyError:
         print '\n\n %s[%s!%s] token invalid' % (P, M, P)
         time.sleep(2)
@@ -266,7 +266,7 @@ line3 = random.choice(line1)
 def notice():
     print '\n '
     time.sleep(2)
-    os.system('xdg-open https://www.youtube.com/channel/UCMq49MVzVHlX-KQvlTbCbyw')
+    os.system('xdg-open https://m.facebook.com/m.mahdi.80')
     moch_yayan()
 
 
@@ -330,8 +330,8 @@ def moch_yayan():
     print logo
     print ' [*] ---------------------------------------------'
     print ' [*] %sAuthor     %s: %sZafar Abbas' % (N, N, warna)
-    print ' %s[*] Github     : https://github.com/juttbadshah6969' % N
-    print ' [*] %sFacebook   : https://www.facebook.com/itx.mezaroon' % N
+    print ' %s[*] Github     : https://github.com/Mahdi-hasan580' % N
+    print ' [*] %sFacebook   : https://www.facebook.com/mahdi.80808' % N
     print ' [*] ---------------------------------------------'
     print ' [*] Id Facebook: %s%s%s' % (H, idfb, N)
     print ' [*] IP         : %s\n' % IP
